@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    border: 0;
+  }
+
+
+.banner {
+	
+width: 100%;
+height: 500px;
+background: url(../img/2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: center;
+
+}
+
+.banner1{
+    width: 100%;
+    height: 500px;
+    background: url(../img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.banner2{
+    width: 100%;
+    height: 500px;
+    background: url(../img/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.banner3{
+    width: 100%;
+    height: 500px;
+    background: url(../img/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.logo{
+    position: relative;
+    width: 650px;
+    height: 200px;
+    top: 0;
+    right: 280px;
+    object-fit: cover;
+}
+
+.paragrafo1{
+    color: white;
+}
+
+.paragrafo2{
+    color: #D5A33E;
+}
+
+h1{
+    width:700px;
+    height: 112px;
+    position: relative;
+    top: -30px;
+    right: 80px;
+    font-weight: 700px;
+    margin-top:-10px;
+    display: block;
+
+
+}
+
+h6{
+    width: 600px;
+    text-decoration: none;
+    position: relative;
+    top: -20px;
+    right: 0;
+    margin-top:-55px;
+    margin-left: 40px;
+}
+
+
+
+.card{
+    display: flex;
+    left: 200px;
+    float: left;
+    margin-right: 20px;
+    
+}
+.card-body{
+    flex: 300px;
+}
+
+
+
+
+/*Paralax*/
+
+.paralax
+{
+    
+    padding: 30px 0px;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../img/livros.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.botao2
+{
+    width: 200px;
+    text-align: center;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 150px;
+    transition-duration: 0.4s;
+    background-color: #be9033;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.btn:hover
+{
+    background-color:#ad8025;
+    color: white;
+}
+
+/*Informacoes*/
+
+.informacoes-title{
+    color: rgb(31, 31, 31);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-info{
+    color:rgb(29, 29, 29);
+    text-align: left;
+    width: 600px;
+    position: relative;
+    top: 20px;
+    right: 0;
+    margin-top: -15px;
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.desc-info{
+    color:rgb(29, 29, 29);
+    height: 50px;
+    font-weight: normal;
+    position: relative;
+    top: 15px;
+    right: 0;
+    margin-left: 150px;
+    font-family: "Montserrat", sans-serif;
+    max-width: 550px;
+
+}
+
+.footer__social__link{
+
+        text-decoration: none;
+        color: #191a1b;
+    
+
+}
+
+.footer__social__link:hover {
+    color: rgb(187, 161, 74);
+}
+
+.icon{
+    height: 50px;
+    position: relative;
+    top: 60px;
+    right: 0;
+    margin-left: 90px;
+}
+
+
+
+.mapa
+{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    right: -600px;
+    margin-top: -500px;
+
+}
+.footer_final {
+    background-color: #353636;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.conteudo-footer {
+    text-align: center;
+    color: #ffffff;
+    flex-grow: 1;
+}
+
+.footer_final > p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.feito-por  {
+    font-size: 13px;
+    color: #fff;
+    font-style: italic;
+
+
+}
+
+.feito-por > a{
+    color: #fff;
+    font-style: italic;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+    .feito-por:hover > a{
+     color: rgb(207, 183, 42);
+    }
+
+    .clear{
+        clear: both;
+    }
